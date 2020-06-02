@@ -1,2 +1,2 @@
-# Caster
-This is the caster agv ros stack
+# caster_moma_viz
+Rviz config for Caster MOMA view
