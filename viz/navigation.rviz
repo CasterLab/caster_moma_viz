@@ -9,10 +9,7 @@ Panels:
         - /TF1/Frames1
         - /TF1/Tree1
         - /Sensing1
-        - /Sensing1/Main Laser1
-        - /Navigation1
         - /Navigation1/Global Plan1
-        - /Dock Detect1
       Splitter Ratio: 0.6192893385887146
     Tree Height: 796
   - Class: rviz/Selection
@@ -62,49 +59,313 @@ Visualization Manager:
     - Alpha: 1
       Class: rviz/RobotModel
       Collision Enabled: false
-      Enabled: false
+      Enabled: true
       Links:
         All Links Enabled: true
         Expand Joint Details: false
         Expand Link Details: false
         Expand Tree: false
         Link Tree Style: Links in Alphabetic Order
+        arm_base_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        arm_bracelet_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        arm_end_effector_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        arm_forearm_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        arm_half_arm_1_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        arm_half_arm_2_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        arm_left_inner_finger:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        arm_left_inner_finger_pad:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        arm_left_inner_knuckle:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        arm_left_outer_finger:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        arm_left_outer_knuckle:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        arm_right_inner_finger:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        arm_right_inner_finger_pad:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        arm_right_inner_knuckle:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        arm_right_outer_finger:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        arm_right_outer_knuckle:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        arm_robotiq_arg2f_base_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        arm_shoulder_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        arm_spherical_wrist_1_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        arm_spherical_wrist_2_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        base_footprint:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        base_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        camera_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        caster_body_arm_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        caster_body_head_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        caster_body_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        caster_body_part_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        drive_wheel_left_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        drive_wheel_right_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        imu_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        kinect2_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        kinect_v2_base:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        laser_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        laser_link2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        pan_tilt_base_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        pan_tilt_kinect_surface:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        pan_tilt_pitch_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        pan_tilt_yaw_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        support_wheel_front_left_body_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        support_wheel_front_left_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        support_wheel_front_right_body_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        support_wheel_front_right_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        support_wheel_rear_left_body_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        support_wheel_rear_left_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        support_wheel_rear_right_body_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        support_wheel_rear_right_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        ultrasonic_front_left_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        ultrasonic_front_right_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        ultrasonic_rear_left_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        ultrasonic_rear_right_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
       Name: RobotModel
       Robot Description: robot_description
       TF Prefix: ""
       Update Interval: 0
-      Value: false
+      Value: true
       Visual Enabled: true
     - Class: rviz/TF
       Enabled: true
       Frame Timeout: 15
       Frames:
         All Enabled: true
-        arm_mount_link:
+        arm_base_link:
+          Value: true
+        arm_bracelet_link:
+          Value: true
+        arm_end_effector_link:
+          Value: true
+        arm_forearm_link:
+          Value: true
+        arm_half_arm_1_link:
+          Value: true
+        arm_half_arm_2_link:
+          Value: true
+        arm_left_inner_finger:
+          Value: true
+        arm_left_inner_finger_pad:
+          Value: true
+        arm_left_inner_knuckle:
+          Value: true
+        arm_left_outer_finger:
+          Value: true
+        arm_left_outer_knuckle:
+          Value: true
+        arm_right_inner_finger:
+          Value: true
+        arm_right_inner_finger_pad:
+          Value: true
+        arm_right_inner_knuckle:
+          Value: true
+        arm_right_outer_finger:
+          Value: true
+        arm_right_outer_knuckle:
+          Value: true
+        arm_robotiq_arg2f_base_link:
+          Value: true
+        arm_shoulder_link:
+          Value: true
+        arm_spherical_wrist_1_link:
+          Value: true
+        arm_spherical_wrist_2_link:
           Value: true
         base_footprint:
           Value: true
         base_link:
           Value: true
-        camera_bottom_screw_frame:
-          Value: true
         camera_color_frame:
-          Value: true
-        camera_color_optical_frame:
           Value: true
         camera_depth_frame:
           Value: true
-        camera_depth_optical_frame:
-          Value: true
-        camera_left_ir_frame:
-          Value: true
-        camera_left_ir_optical_frame:
-          Value: true
         camera_link:
-          Value: true
-        camera_right_ir_frame:
-          Value: true
-        camera_right_ir_optical_frame:
           Value: true
         caster_body_arm_link:
           Value: true
@@ -114,17 +375,13 @@ Visualization Manager:
           Value: true
         caster_body_part_link:
           Value: true
+        dock:
+          Value: true
         drive_wheel_left_link:
           Value: true
         drive_wheel_right_link:
           Value: true
         imu_link:
-          Value: true
-        j2s6s200_end_effector:
-          Value: true
-        j2s6s200_link_6:
-          Value: true
-        j2s6s200_link_base:
           Value: true
         kinect2_ir_optical_frame:
           Value: true
@@ -146,21 +403,23 @@ Visualization Manager:
           Value: true
         pan_tilt_kinect_surface:
           Value: true
-        pan_tilt_neck_bottom:
-          Value: true
-        pan_tilt_neck_top:
-          Value: true
         pan_tilt_pitch_link:
           Value: true
         pan_tilt_yaw_link:
           Value: true
-        realsense_coupling_link:
+        support_wheel_front_left_body_link:
           Value: true
         support_wheel_front_left_link:
           Value: true
+        support_wheel_front_right_body_link:
+          Value: true
         support_wheel_front_right_link:
           Value: true
+        support_wheel_rear_left_body_link:
+          Value: true
         support_wheel_rear_left_link:
+          Value: true
+        support_wheel_rear_right_body_link:
           Value: true
         support_wheel_rear_right_link:
           Value: true
@@ -185,21 +444,45 @@ Visualization Manager:
                 caster_body_link:
                   caster_body_part_link:
                     caster_body_arm_link:
-                      arm_mount_link:
-                        j2s6s200_link_base:
-                          {}
+                      arm_base_link:
+                        arm_shoulder_link:
+                          arm_half_arm_1_link:
+                            arm_half_arm_2_link:
+                              arm_forearm_link:
+                                arm_spherical_wrist_1_link:
+                                  arm_spherical_wrist_2_link:
+                                    arm_bracelet_link:
+                                      arm_end_effector_link:
+                                        arm_robotiq_arg2f_base_link:
+                                          arm_left_inner_knuckle:
+                                            {}
+                                          arm_left_outer_knuckle:
+                                            arm_left_outer_finger:
+                                              arm_left_inner_finger:
+                                                arm_left_inner_finger_pad:
+                                                  {}
+                                          arm_right_inner_knuckle:
+                                            {}
+                                          arm_right_outer_knuckle:
+                                            arm_right_outer_finger:
+                                              arm_right_inner_finger:
+                                                arm_right_inner_finger_pad:
+                                                  {}
+                                        camera_link:
+                                          camera_color_frame:
+                                            {}
+                                          camera_depth_frame:
+                                            {}
                     caster_body_head_link:
-                      pan_tilt_neck_bottom:
-                        pan_tilt_neck_top:
-                          pan_tilt_base_link:
-                            pan_tilt_yaw_link:
-                              pan_tilt_pitch_link:
-                                pan_tilt_kinect_surface:
-                                  kinect_v2_base:
-                                    kinect2_link:
-                                      kinect2_rgb_optical_frame:
-                                        kinect2_ir_optical_frame:
-                                          {}
+                      pan_tilt_base_link:
+                        pan_tilt_yaw_link:
+                          pan_tilt_pitch_link:
+                            pan_tilt_kinect_surface:
+                              kinect_v2_base:
+                                kinect2_link:
+                                  kinect2_rgb_optical_frame:
+                                    kinect2_ir_optical_frame:
+                                      {}
                 drive_wheel_left_link:
                   {}
                 drive_wheel_right_link:
@@ -207,17 +490,22 @@ Visualization Manager:
                 imu_link:
                   {}
                 laser_link:
-                  {}
+                  dock:
+                    {}
                 laser_link2:
                   {}
-                support_wheel_front_left_link:
-                  {}
-                support_wheel_front_right_link:
-                  {}
-                support_wheel_rear_left_link:
-                  {}
-                support_wheel_rear_right_link:
-                  {}
+                support_wheel_front_left_body_link:
+                  support_wheel_front_left_link:
+                    {}
+                support_wheel_front_right_body_link:
+                  support_wheel_front_right_link:
+                    {}
+                support_wheel_rear_left_body_link:
+                  support_wheel_rear_left_link:
+                    {}
+                support_wheel_rear_right_body_link:
+                  support_wheel_rear_right_link:
+                    {}
                 ultrasonic_front_left_link:
                   {}
                 ultrasonic_front_right_link:
@@ -279,9 +567,9 @@ Visualization Manager:
           Enabled: true
           Invert Rainbow: false
           Max Color: 255; 255; 255
-          Max Intensity: 2759
+          Max Intensity: 2241
           Min Color: 0; 0; 0
-          Min Intensity: 151
+          Min Intensity: 254
           Name: Main Laser
           Position Transformer: XYZ
           Queue Size: 10
@@ -297,8 +585,8 @@ Visualization Manager:
         - Alpha: 1
           Autocompute Intensity Bounds: true
           Autocompute Value Bounds:
-            Max Value: 2.7689521312713623
-            Min Value: -1.6334749460220337
+            Max Value: 4.208147048950195
+            Min Value: -3.7468717098236084
             Value: true
           Axis: X
           Channel Name: intensity
@@ -319,7 +607,7 @@ Visualization Manager:
           Size (Pixels): 3
           Size (m): 0.029999999329447746
           Style: Flat Squares
-          Topic: /scan_2
+          Topic: /scan_2_filtered
           Unreliable: false
           Use Fixed Frame: true
           Use rainbow: true
@@ -575,7 +863,7 @@ Visualization Manager:
   Value: true
   Views:
     Current:
-      Angle: 0
+      Angle: -1.9399993419647217
       Class: rviz/TopDownOrtho
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
@@ -585,11 +873,11 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Scale: 102.60092163085938
+      Scale: 131.18902587890625
       Target Frame: <Fixed Frame>
       Value: TopDownOrtho (rviz)
-      X: 1.3731231689453125
-      Y: 0.07479482889175415
+      X: 1.1279867887496948
+      Y: -0.51841139793396
     Saved: ~
 Window Geometry:
   Displays:
